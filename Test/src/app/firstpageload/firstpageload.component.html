@@ -1,0 +1,8 @@
+<div *ngIf="lazyLoadingService.show_hideContent" [style]="{'text-align': 'center'}">
+<h3>HomePage - This is the Home Page from where we will navigate on main screen</h3>
+
+<div title="After Clicking on this link you'll redirect to main page where we are showing details of project">
+<a class="nav-link" [routerLink]="['/lazy-loading']">Lazy Loading</a>
+</div>
+</div>
+<router-outlet></router-outlet>

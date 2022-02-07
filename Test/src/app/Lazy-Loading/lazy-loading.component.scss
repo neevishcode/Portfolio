@@ -1,0 +1,109 @@
+.Text{
+  text-decoration: solid;
+  margin-left: 20px;
+}
+.content{
+  margin-right: 35px;
+  text-align: right;
+}
+.ui-chkbox .ui-chkbox-icon {
+  display: block;
+  border: 2px solid #010203;
+}
+.ui-chkbox .ui-chkbox-box {
+  width: 1.125em;
+  height: 1.125em;
+  line-height: 1.125em;
+  border-radius: 2px;
+  text-align: center;
+  border: 2px solid #010203;
+}
+.ui-chkbox-box.ui-state-active, .ui-radiobutton-box.ui-state-active {
+  border: 2px solid #010203;
+  background: #186ba0;
+  color: #FFFFFF;
+}
+.p-checkbox
+{
+  /* display: inline-flex; */
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  vertical-align: bottom;
+}
+.ui-widget {
+  /* font-family: "Roboto", "Trebuchet MS", Arial, Helvetica, sans-serif; */
+  font-size: 1em;
+}
+.ui-chkbox {
+  width: 1.125em;
+  height: 1.125em;
+  border: 1px solid #010203;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-right: .25em;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+.card1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  // background-color: #fff;
+  background-color:rgba(0, 0, 0, 0.055);
+  background-clip: border-box;
+  // border: 1px solid rgba(0, 0, 0, 0.125);
+  // border-radius: 0.25rem;
+  margin-left: 201px
+}
+.card2 {
+  position: initial;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  // background-color: #fff;
+  background-color:rgba(0, 0, 0, 0.055);
+  background-clip: border-box;
+  // border: 1px solid rgba(0, 0, 0, 0.125);
+  // border-radius: 0.25rem;
+  margin-left: 401px;
+  height: 182px;
+}
+.card3 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  // background-color: #fff;
+  background-color:rgba(0, 0, 0, 0.055);
+  background-clip: border-box;
+  // border: 1px solid rgba(0, 0, 0, 0.125);
+  // border-radius: 0.25rem;
+  margin-left: 601px;
+  height: 182px;
+  margin-top: -203px;
+}
+.card4 {
+  position: initial;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  // background-color: #fff;
+  background-color:rgba(0, 0, 0, 0.055);
+  background-clip: border-box;
+  // border: 1px solid rgba(0, 0, 0, 0.125);
+  // border-radius: 0.25rem;
+  margin-left: 801px;
+  height: 182px;
+  margin-top: -203px;
+}
+
+
